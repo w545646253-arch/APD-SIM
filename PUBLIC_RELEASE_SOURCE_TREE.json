@@ -1,0 +1,654 @@
+{
+  "files": [
+    {
+      "relative_path": ".gitignore",
+      "sha256": "f5a353f8171bc798003528741a42a2ed09f30e6f1e85308dafcf61bf8843667a",
+      "size_bytes": 262
+    },
+    {
+      "relative_path": "CHANGELOG.md",
+      "sha256": "2761a06aac0a6f37f9d62d90adf1dd8e08d7b4e0c89105a8e39347e8b74b87e1",
+      "size_bytes": 401
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r2/dmd3_restart_simple_r1/best_checkpoint_receipt.json",
+      "sha256": "183b6353caac12836c54a9c253deed8391189be30f88be83778ee9066657ab33",
+      "size_bytes": 1894
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r2/dmd3_restart_simple_r1/validation_history.csv",
+      "sha256": "e372f99834ef0cfe90d16b6fe1e212bcf7463a3ea12a20957301ae20139a85a5",
+      "size_bytes": 5803
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r2/dmd6/best_checkpoint_receipt.json",
+      "sha256": "dc681864ff9646ef6481c28735668ee83502541ea3732f2274d2dfff54789f8d",
+      "size_bytes": 1692
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r2/dmd6/validation_history.csv",
+      "sha256": "5cdaa5394ad3a6c03cf062a4db1c119683e8ecc86519bf6dabe886004e712e8e",
+      "size_bytes": 5630
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r4/dmd9/checkpoint_selection.json",
+      "sha256": "59ecfd15fdbf996595291747dddeb52f2473772711cb6f74054e27a364425947",
+      "size_bytes": 1777
+    },
+    {
+      "relative_path": "checkpoints/apd_dmd_geometry_r4/dmd9/completion_receipt.json",
+      "sha256": "f705099452366d78438ecddc1ecfde21b722fbe1fdf071a247ac6bc74ca08bca",
+      "size_bytes": 393
+    },
+    {
+      "relative_path": "checkpoints/provenance/DMD9_REPAIR_R4/10_archive/relocation_map.json",
+      "sha256": "31f226be45170a4baeca14a2dd15c80e4332f81e781fe9f1635a8078ae29c2f1",
+      "size_bytes": 316
+    },
+    {
+      "relative_path": "checkpoints/provenance/DMD9_REPAIR_R4/11_final/final_status.json",
+      "sha256": "b59b43213a86a51f33e23e7b4940f23676759f1efb97616e57b376ddffb10f57",
+      "size_bytes": 5850
+    },
+    {
+      "relative_path": "checkpoints/provenance/DMD9_REPAIR_R4/checkpoint_selection.json",
+      "sha256": "59ecfd15fdbf996595291747dddeb52f2473772711cb6f74054e27a364425947",
+      "size_bytes": 1777
+    },
+    {
+      "relative_path": "checkpoints/provenance/DMD9_REPAIR_R4_CURRENT.json",
+      "sha256": "ed566d51d8a00011858da8a740cc1b17f2c0cfe795a23f9929688092927a9ce5",
+      "size_bytes": 120
+    },
+    {
+      "relative_path": "checkpoints/README.md",
+      "sha256": "7734f6412b267be9ba7b89e98a5a2d23a35f3ef853c995dd5ac94c8934d97497",
+      "size_bytes": 335
+    },
+    {
+      "relative_path": "CITATION.cff",
+      "sha256": "8e8bf994515b12696db39b8b9a5bae8d28436e175842a811d657bb516d77df7f",
+      "size_bytes": 380
+    },
+    {
+      "relative_path": "configs/apd_dmd_r2/train3_formal_restart_simple_r1.json",
+      "sha256": "4f63e0cdea9cf2a4d8438807c2ab53777a0a0140fc191d72571f9522454360e9",
+      "size_bytes": 4824
+    },
+    {
+      "relative_path": "configs/apd_dmd_r2/train6_formal.json",
+      "sha256": "3a23ff2f7a80f64753df473502acfdcda736eaa604a1ad63449aebf8b2abc0df",
+      "size_bytes": 3947
+    },
+    {
+      "relative_path": "configs/apd_dmd_r2/train9_formal.json",
+      "sha256": "bcd64e16c0d95e9ac3361a39a0dc82a2cedfa5e0d430e91b5b0b016f9b0fdfdc",
+      "size_bytes": 3877
+    },
+    {
+      "relative_path": "configs/reproduction/class_specific_statistics.json",
+      "sha256": "a7c7730f95d934b1489f5caddc249b693525dc2f421986b39c49df0234714639",
+      "size_bytes": 315
+    },
+    {
+      "relative_path": "configs/reproduction/frame_budget.json",
+      "sha256": "9d3672397b22570061e09af4a07cc5838ecf8cca2595dd314d36603c584b6ddd",
+      "size_bytes": 1068
+    },
+    {
+      "relative_path": "configs/reproduction/matched_baselines.json",
+      "sha256": "3f559b12f17876e2a78a1cc08d4a169204fc081fd54473e65d3a975fdef0d1c5",
+      "size_bytes": 894
+    },
+    {
+      "relative_path": "configs/reproduction/seed_sensitivity.json",
+      "sha256": "8ddcfc91710cfa6ce1f220e212cd43e762cd0ce59de7a24e15bb6430a7af3a7c",
+      "size_bytes": 818
+    },
+    {
+      "relative_path": "configs/reproduction/strict_dmd6_ablation.json",
+      "sha256": "74d3f128823e47d03fafbe095125c3d863b5363ef2b17342244d5ad81abd8ed6",
+      "size_bytes": 892
+    },
+    {
+      "relative_path": "configs/reproduction/validity_mask_control.json",
+      "sha256": "88a95ee5cc83227b3454791a41be12799860cb6f56a4bbdbe8b74936189fbd04",
+      "size_bytes": 668
+    },
+    {
+      "relative_path": "data/README.md",
+      "sha256": "85bdd8b38cd9619cfb3596fea7ea14004e261984696b80fa636d34892a4f2504",
+      "size_bytes": 669
+    },
+    {
+      "relative_path": "docs/MANIFEST_IDENTITIES.md",
+      "sha256": "54631e765302f1d6e46b6af9f896c6e205a824187c162cbfb6a67242a26f592f",
+      "size_bytes": 415
+    },
+    {
+      "relative_path": "docs/PROTOCOL_PROVENANCE.md",
+      "sha256": "ac2e5ea5da1d841b82f8858ab71692604981ddef3dd2b8962f7bb7fd35375f59",
+      "size_bytes": 1341
+    },
+    {
+      "relative_path": "docs/REPRODUCIBILITY_LIMITATIONS.md",
+      "sha256": "36e924782f964b5cc4bed45891ac0431ce7cf383655fb26f599e4b01ea6ba540",
+      "size_bytes": 742
+    },
+    {
+      "relative_path": "environment.yml",
+      "sha256": "7c03dd0960fe042f492f7ba1c1d8ec9a7fc657e47746363dec2323ae23478758",
+      "size_bytes": 128
+    },
+    {
+      "relative_path": "examples/README.md",
+      "sha256": "b56b7a983b3a05dc64ea9e4f24f4bde4486d114e0f9db5a06ee4721f623033b9",
+      "size_bytes": 191
+    },
+    {
+      "relative_path": "examples/synthetic/generate_smoke_asset.py",
+      "sha256": "52dc6e77886f45eee129d3dc21e66da4cd5f34122087b5e0479e6289eebef59c",
+      "size_bytes": 583
+    },
+    {
+      "relative_path": "examples/synthetic/smoke_asset_receipt.json",
+      "sha256": "2af83d89a303f3fe29a3b6d98629f0ba37bc40dc31661d602a1912582685dddf",
+      "size_bytes": 224
+    },
+    {
+      "relative_path": "examples/synthetic/smoke_input.npz",
+      "sha256": "57b80c0523b1bf9b3243e74e32942c9f0087d81ed81a5d05d7e24919b7e7c677",
+      "size_bytes": 15992
+    },
+    {
+      "relative_path": "LICENSE_PENDING.md",
+      "sha256": "ba0554d7b7b170cc96f3f49ae5e1126f88eb11b6b9aa6bbee21926368a27c0c0",
+      "size_bytes": 528
+    },
+    {
+      "relative_path": "manifests/apd_dmd_r2/sealed_test_manifest.json",
+      "sha256": "495b554a19596b299f1bc5192ee3b1eb071414fde361c2f2eae0c17f2878d794",
+      "size_bytes": 7630
+    },
+    {
+      "relative_path": "manifests/apd_dmd_r2/train_manifest.json",
+      "sha256": "a02a6321e022c2819ec44b519d2a87a1664d60c64b0eb462775e26e79e2791ff",
+      "size_bytes": 65814
+    },
+    {
+      "relative_path": "manifests/apd_dmd_r2/validation_bundle_manifest.json",
+      "sha256": "a5d250b5a9a430e3d75e59512bab93ca885e99105d968abe4ada98504bd67eaf",
+      "size_bytes": 460284
+    },
+    {
+      "relative_path": "manifests/apd_dmd_r2/validation_manifest.json",
+      "sha256": "d80a1a697c550228533caa965557246ed7907a89497cffcbaf35b84fdc14caa4",
+      "size_bytes": 8113
+    },
+    {
+      "relative_path": "protocols/dmd_3f_1o3p.json",
+      "sha256": "706f3927c0e390ca00c8c5b8ae6eb55e28e7751c49a823a587e33ca68d8ba1ce",
+      "size_bytes": 4080
+    },
+    {
+      "relative_path": "protocols/dmd_6f_2o3p.json",
+      "sha256": "89288c611d5bb60991f1104b6cb218e396a2e78704d78cd258ea1b607b9bb2f5",
+      "size_bytes": 5229
+    },
+    {
+      "relative_path": "protocols/dmd_9f_3o3p.json",
+      "sha256": "dd63f749a76ee4a9c772ed66efb457f8ea56f00c4a053ed2fa705a7e5aa4e7c3",
+      "size_bytes": 7003
+    },
+    {
+      "relative_path": "public_release_audit/ABSOLUTE_PATH_REPORT.csv",
+      "sha256": "9f42af6f464645334330d9f9f34787cca5e9b5044394d7aae8b5c8f36ff8b33f",
+      "size_bytes": 7180318
+    },
+    {
+      "relative_path": "public_release_audit/AUTHORITATIVE_EXECUTION_GRAPH.md",
+      "sha256": "fad60979e318a017407cd447e458c4d6396433b878e28f2a0577e5ff07041a50",
+      "size_bytes": 2418
+    },
+    {
+      "relative_path": "public_release_audit/EXCLUDED_FILE_MANIFEST.csv",
+      "sha256": "a7c911f5d89c3949c65705cc2ba64712fc039eb70089054f85c8b3e45b499823",
+      "size_bytes": 16463237
+    },
+    {
+      "relative_path": "public_release_audit/REPOSITORY_INVENTORY.csv",
+      "sha256": "059e053b69a96008ff053320a7a26f495154ef9541a4a84c3bbd9d224c33f4fd",
+      "size_bytes": 16684174
+    },
+    {
+      "relative_path": "public_release_audit/SECRET_SCAN_REPORT.md",
+      "sha256": "dcd0a630d54aaef94703f77d6bfd51d3857040a3918d8d95046f68f6dcae8ea7",
+      "size_bytes": 724
+    },
+    {
+      "relative_path": "public_release_audit/SOURCE_SELECTION_RECEIPT.json",
+      "sha256": "f4a47e98bd3efd8c86ec9ff4a82e6da2b749b3ac28e53cbbf9c75f8d135786ff",
+      "size_bytes": 15915
+    },
+    {
+      "relative_path": "public_release_audit/THIRD_PARTY_LICENCE_REPORT.md",
+      "sha256": "0b39637e78de5f1d13ff166e72864ec9c203ede7d3e619902f2caf4024d63c2a",
+      "size_bytes": 1067
+    },
+    {
+      "relative_path": "PUBLIC_RELEASE_TEST_RECEIPT.json",
+      "sha256": "d3adc149afd57f58a4c8f588a5921902749119acd1ca35fd195fa1b0227564c7",
+      "size_bytes": 1027
+    },
+    {
+      "relative_path": "PUBLIC_RELEASE_TEST_REPORT.md",
+      "sha256": "076d2fe24f7cd4881b0318c0eed273ab2e28a9f8d32f98ae31bf4d700c271d72",
+      "size_bytes": 1740
+    },
+    {
+      "relative_path": "pyproject.toml",
+      "sha256": "f727f8e102f7490d9e4ec943eaa264580a67674065d1f80846cd0b887c50098a",
+      "size_bytes": 450
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "db3c671c53e2360fa683e3657882acfa58131a13546814048e2d21401ce8e47b",
+      "size_bytes": 5152
+    },
+    {
+      "relative_path": "release_assets/CHECKPOINT_MANIFEST.csv",
+      "sha256": "c5623d0d869a0223066f48372f19ad3b7acda68d5f3c7520a4ee4572ee102eea",
+      "size_bytes": 866
+    },
+    {
+      "relative_path": "release_assets/LARGE_FILE_POLICY.md",
+      "sha256": "cbc80b5be2270256ba75a81f7342348cc20c7b973d92fdcc6b1c2ad795bce18c",
+      "size_bytes": 755
+    },
+    {
+      "relative_path": "release_assets/SHA256SUMS.txt",
+      "sha256": "326d5104ff5ec5ecf4838023de1f9ba452381a8df63080acc0a4ee15e2d90804",
+      "size_bytes": 351
+    },
+    {
+      "relative_path": "requirements.txt",
+      "sha256": "5592078dcde27ca1b250041099f5f3ba946d7f7cbed4837815d2d79b3c39ed07",
+      "size_bytes": 118
+    },
+    {
+      "relative_path": "scripts/evaluate/evaluate_apd369_protocols_final.py",
+      "sha256": "d683834dd5e7a83995bcfefacea30149732e76c9231b559b2fb880b4596c1746",
+      "size_bytes": 22300
+    },
+    {
+      "relative_path": "scripts/evaluate/evaluate_apd369_repair_r4.py",
+      "sha256": "2779173ec11400f38f87f1a04adc9bf6a798eb605023c29ba2459386d5610baf",
+      "size_bytes": 10609
+    },
+    {
+      "relative_path": "scripts/evaluate/R1C1_run_validity_mask_control.py",
+      "sha256": "4dd48e28cb3a95eaf0f13b2cfe4f5ee60cd77ba28cc41fd8af471b4c86b1ea9a",
+      "size_bytes": 243
+    },
+    {
+      "relative_path": "scripts/evaluate/R1C2_run_frame_budget_30fov.py",
+      "sha256": "136e347721eacb6f8916b9f4d7abf875390a85d732a79bf1c77da17e966d4136",
+      "size_bytes": 439
+    },
+    {
+      "relative_path": "scripts/evaluate/R1C3_run_physmap6_strict.py",
+      "sha256": "aa422cefd58922c0d6345c733e6f53cdabc417634d263313c1fe7f1b0b816292",
+      "size_bytes": 848
+    },
+    {
+      "relative_path": "scripts/infer/generate_apd369_from_gt.py",
+      "sha256": "26023ec3e3f787b5cdf40e0b2e6f81d20bcf468b329c7adb63aa4cd393518b4a",
+      "size_bytes": 9319
+    },
+    {
+      "relative_path": "scripts/infer/run_single_gt_apd369_frc_spectra.py",
+      "sha256": "ff7a4cb6f5d3c7ebd2d446e1c05852c87e2d06d9c315f450d8243849b9183c5e",
+      "size_bytes": 15151
+    },
+    {
+      "relative_path": "scripts/reproduce/_common.py",
+      "sha256": "f3987174e4d33fc842abf64b7f71b191e3d0f0de659cff3f6714b8fe202edf11",
+      "size_bytes": 3448
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_class_specific_statistics.py",
+      "sha256": "aa02bd67fff9638b6fc2676079e44d0c94800b1da03feb8a1f753799735b3828",
+      "size_bytes": 1333
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_frame_budget.py",
+      "sha256": "5ddf922049fac0bbc595f49cf20e442afa122379866caf8b3072db8e32fddcb1",
+      "size_bytes": 375
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_matched_baselines.py",
+      "sha256": "927aa16cd78101f27b21c37b980a7a1180410ac147cba296bf428314f4164ea3",
+      "size_bytes": 304
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_seed_sensitivity.py",
+      "sha256": "c491a600da0223a13294e5526f0210f7a37af93b054263fad3ad752a84f18cc7",
+      "size_bytes": 306
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_strict_dmd6_ablation.py",
+      "sha256": "2b50a870c8e10ab6acc9b18a29d1948128c22d8b09fa964d051ad45a22b847af",
+      "size_bytes": 392
+    },
+    {
+      "relative_path": "scripts/reproduce/reproduce_validity_mask_control.py",
+      "sha256": "a648bf7335f4f74981f3c1bd204669d3e6d97441690e5bb820ae62ef862d5885",
+      "size_bytes": 403
+    },
+    {
+      "relative_path": "scripts/train/train3.py",
+      "sha256": "352986682de21515e17ed927f6c224ab1aa4d6306e18d3274f27222dc10b7992",
+      "size_bytes": 678
+    },
+    {
+      "relative_path": "scripts/train/train6.py",
+      "sha256": "0734b65abc5906115a4da6f822a0e489e60895e946026fe0cb736793e6a7385a",
+      "size_bytes": 640
+    },
+    {
+      "relative_path": "scripts/train/train9.py",
+      "sha256": "9de9c8cb9ffefaf9e4bcdbdcc433f0a09b8b5ee7321bb4f41f3545f5c85276d8",
+      "size_bytes": 640
+    },
+    {
+      "relative_path": "tests/public/test_public_release.py",
+      "sha256": "bb43bff4334974a974dbfa967a9e99058a0456d508efc415b419b5775f920713",
+      "size_bytes": 1152
+    },
+    {
+      "relative_path": "tests/upstream/test_apd369_final_reevaluation.py",
+      "sha256": "3589dc762f2dd79a190fac5be5dcc09bdd1c9aec8e5eab29972a53dd1813d61d",
+      "size_bytes": 6624
+    },
+    {
+      "relative_path": "tests/upstream/test_apd369_single_gt_repaired.py",
+      "sha256": "542d99ebc0cc3c881c9fd62c520a30b8a89a2e35055e6897061a141e105074e2",
+      "size_bytes": 12280
+    },
+    {
+      "relative_path": "tests/upstream/test_apd_dmd_checkpoint_contract.py",
+      "sha256": "63dd7f8cc8a2a6a5b0953fda796c856f87236b22e2159a6761c2c756a974ac04",
+      "size_bytes": 3445
+    },
+    {
+      "relative_path": "tests/upstream/test_apd_dmd_formal_gate.py",
+      "sha256": "4feb2a0ca4f235911840fb149ba6d82db416343f3bb36cb31062920dc0e62beb",
+      "size_bytes": 3399
+    },
+    {
+      "relative_path": "tests/upstream/test_apd_dmd_protocol_runtime.py",
+      "sha256": "20b98e5e6767cc5214cb16926ae7e43b745b596649584bc27062ddc348435135",
+      "size_bytes": 5154
+    },
+    {
+      "relative_path": "tests/upstream/test_biosr_dataset.py",
+      "sha256": "f5cbf812b58e3a0dfcd3ffda1e780e90d663a01df9ae92c6f3ece59be2fd9383",
+      "size_bytes": 5031
+    },
+    {
+      "relative_path": "tests/upstream/test_dataset_fig5_audit_identity.py",
+      "sha256": "fb263228fc1f23392fdb439b062c08bba80d597d6954c510e7beba1a2ad20dcd",
+      "size_bytes": 3675
+    },
+    {
+      "relative_path": "tests/upstream/test_dmd9_repair_r4_contract.py",
+      "sha256": "68eb39192861bc2375b87284f25b65e0a410217a9df33650e06a88293045dda2",
+      "size_bytes": 7173
+    },
+    {
+      "relative_path": "tests/upstream/test_dmd_protocol_registry.py",
+      "sha256": "417cd3faa988e025097ee96a5c57a4715827386b000ee30fdb74be7464cbabd9",
+      "size_bytes": 10801
+    },
+    {
+      "relative_path": "tests/upstream/test_formal_2d_core.py",
+      "sha256": "a1d211c80867af54140fd81803ccdabc6c64aa87717a5aa2d4aac2b33e7145cf",
+      "size_bytes": 43575
+    },
+    {
+      "relative_path": "tests/upstream/test_official_r2_adapters.py",
+      "sha256": "7bbd6988934989b5130125c7ea6e93d4894cea9fd563c32aa89a60c9c0609af0",
+      "size_bytes": 2528
+    },
+    {
+      "relative_path": "tests/upstream/test_official_r2_common_metrics.py",
+      "sha256": "e84de2151be5b0f6bb8f61ec3f081b318f3578df486f49864f5fb3862594ab37",
+      "size_bytes": 8484
+    },
+    {
+      "relative_path": "tests/upstream/test_r1c1_validity_mask_control.py",
+      "sha256": "fd36c233245b66b201f3e4e2f1abb4fd517a957be955c02962ee0a3ef293ee25",
+      "size_bytes": 6405
+    },
+    {
+      "relative_path": "tests/upstream/test_r1c2_frame_budget_30fov.py",
+      "sha256": "2ba2c7763ffdc47d4e38420c53bdf2304330094ae57ec30829d088ee013eeecf",
+      "size_bytes": 8293
+    },
+    {
+      "relative_path": "tests/upstream/test_r1c3_physmap6_strict.py",
+      "sha256": "2f68ba1e0ee66c821786d7c238d3ec7aced21ff9c8f5ef38d4b7cd0e5f4c6b1e",
+      "size_bytes": 22874
+    },
+    {
+      "relative_path": "tests/upstream/test_r1c3_weight_convergence.py",
+      "sha256": "e2f03d8133e271aad93a340ee3e4fcd6f1a0013c4e2aa378829deb6b7846059d",
+      "size_bytes": 17527
+    },
+    {
+      "relative_path": "tests/upstream/test_revision_dmd6_package.py",
+      "sha256": "54abd3ecbf501485559921e3dad231e4e6261c55af7ea00642a2eb162ac6230e",
+      "size_bytes": 2580
+    },
+    {
+      "relative_path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "0f3de4f1a27aea5f38ef41ab5414a99111760827d012f9752c13550508e3bbe9",
+      "size_bytes": 1195
+    },
+    {
+      "relative_path": "tools/__init__.py",
+      "sha256": "afcd0eb69b3ba97acfeca2b4022bd6a5e63d0eb091dec17c6018999c5aa297b1",
+      "size_bytes": 45
+    },
+    {
+      "relative_path": "tools/apd369_final_contract.py",
+      "sha256": "f61807c41cf7315ab37883fb602e4484da4ca56567f3361b1b700e9e9a740774",
+      "size_bytes": 25358
+    },
+    {
+      "relative_path": "tools/dmd6_test_contract.py",
+      "sha256": "20a537b3ff811eb30aaede822e4ebe84696215010953f8a1653aed444a9467e6",
+      "size_bytes": 37233
+    },
+    {
+      "relative_path": "tools/evaluate_apd6_on_official_r2.py",
+      "sha256": "2ebd1dd5c462015285688b686ff005b3a1e3ceb37e41f2ef7872c37e08d26b82",
+      "size_bytes": 32618
+    },
+    {
+      "relative_path": "tools/finalize_revision_experiments.py",
+      "sha256": "01400affcf965a6bee8e12ed18c2a161ea236fa6ed85af4d759a177f59df2732",
+      "size_bytes": 33216
+    },
+    {
+      "relative_path": "tools/official_baselines_dmd6_r2.py",
+      "sha256": "679bc12d99465504b55989102a885f40f2b7b55e12d3afb49ecb1232f34cdd8d",
+      "size_bytes": 53031
+    },
+    {
+      "relative_path": "tools/official_r2_adapters.py",
+      "sha256": "6a42ee68f9607e21cb7d9a697876b0538cf40dccb9c95608a70639b25b870850",
+      "size_bytes": 7674
+    },
+    {
+      "relative_path": "tools/official_r2_common_metrics.py",
+      "sha256": "9efd7efcc6ecf126816887a710478f592ecc3b29562003a2ea452e1b93deec9a",
+      "size_bytes": 26317
+    },
+    {
+      "relative_path": "tools/revision_dmd6_common.py",
+      "sha256": "386af85dda8df5d24a183e8210063e5b6949351e105e0cf43db75d65b8f1d135",
+      "size_bytes": 13876
+    },
+    {
+      "relative_path": "tools/run_revision_frame_budget.py",
+      "sha256": "14604dbcf5af01b3f2f1d4b6ad40472945c8e30271a38fc97aa00b0f9927efa5",
+      "size_bytes": 5629
+    },
+    {
+      "relative_path": "tools/run_revision_matched_dmd6.py",
+      "sha256": "59ebe9cd998196f953e2493989139b4ef64d0270ebae8dea125d06a3ffb52115",
+      "size_bytes": 12924
+    },
+    {
+      "relative_path": "tools/run_revision_seed_sensitivity.py",
+      "sha256": "7c5bef91ddb922add6cf7856a40ae9127eaba2f9af03554b193460189680926d",
+      "size_bytes": 8326
+    },
+    {
+      "relative_path": "tools/validate_revision_dmd6_package.py",
+      "sha256": "f201beaca5f1a0fea617838e07940b28796db410771967d1fd8730a0398bca20",
+      "size_bytes": 16332
+    },
+    {
+      "relative_path": "unisim/__init__.py",
+      "sha256": "d822da3093f84cfa4e0c523a5514893f43e71bf27a46f8636e001c378f7cc369",
+      "size_bytes": 156
+    },
+    {
+      "relative_path": "unisim/apd369_single_gt_repaired.py",
+      "sha256": "9c2a2973833c682e95c003623f295bf3930e86dbdd6a7cd5abe02f6e24d5c079",
+      "size_bytes": 38695
+    },
+    {
+      "relative_path": "unisim/checkpoint_contract.py",
+      "sha256": "da555ee740e165fc04c8a2938c0eb5ef8409b58921084ccca0e0eb540d741527",
+      "size_bytes": 9430
+    },
+    {
+      "relative_path": "unisim/datasets.py",
+      "sha256": "bb852e15710edbb653b59d40def35031b919ae149bb6485ec9db0f908ac32c05",
+      "size_bytes": 18925
+    },
+    {
+      "relative_path": "unisim/diffusion.py",
+      "sha256": "621e3a64f0b81cc3cac881f2cb2ca21de4244f1211b4b497a6a602d6f5c24615",
+      "size_bytes": 4157
+    },
+    {
+      "relative_path": "unisim/formal_training_2d.py",
+      "sha256": "7e59be521cf434a3b494461429893e8e1b4e964fd97c460d6c26104a9df4091a",
+      "size_bytes": 134094
+    },
+    {
+      "relative_path": "unisim/formal_training_gate.py",
+      "sha256": "c7fb7bab0c80349fb3a34397a049f4bbb3f4e9981a3c9dafcaee5066414e8ce4",
+      "size_bytes": 5521
+    },
+    {
+      "relative_path": "unisim/model2d.py",
+      "sha256": "b2a2d96297542e33d40c477feedb98be759e7cb9a2220288181710e359c3acf4",
+      "size_bytes": 8341
+    },
+    {
+      "relative_path": "unisim/models.py",
+      "sha256": "de4844b6fa6f6bcd9cb390ff7e9fe20bc69ed87fac39859d50bc1dd8bc2abec9",
+      "size_bytes": 6176
+    },
+    {
+      "relative_path": "unisim/protocol_runtime.py",
+      "sha256": "bc28868baf391ad53491ef7e50d0f07f2f64ac9572b23c6a2b475a6bbc0d123a",
+      "size_bytes": 18261
+    },
+    {
+      "relative_path": "unisim/protocols.py",
+      "sha256": "ca6a2d07bad9bc1d9ed08378a95d7f06ea90db824f207c53a0a647f6c2bb1b27",
+      "size_bytes": 27790
+    },
+    {
+      "relative_path": "unisim/recon.py",
+      "sha256": "9c1052a46a339e385a3d6dfb87349e9276485907caa8459bdeb9eaa16bc8e8e7",
+      "size_bytes": 28083
+    },
+    {
+      "relative_path": "unisim/revision_r1/__init__.py",
+      "sha256": "15bac46d7c8f94ceb3d38372e93910b0c4114bf5babcebb5141eb56a2af80c47",
+      "size_bytes": 200
+    },
+    {
+      "relative_path": "unisim/revision_r1/dataset_fig5_audit_identity.py",
+      "sha256": "be7b6500400811869d33bf51d23fc559c680df31ff2cd9b7bb08fb0104c5b87e",
+      "size_bytes": 43078
+    },
+    {
+      "relative_path": "unisim/revision_r1/frame_budget_r1c2.py",
+      "sha256": "b8c2414fdd4f5cbe052b3af5acb9c8de7f2f3545b9a7109e97bcbe8d80dd151a",
+      "size_bytes": 92000
+    },
+    {
+      "relative_path": "unisim/revision_r1/physmap6_core.py",
+      "sha256": "e4d60b5937680a22367d2fc6a4add0ce95835658ad5e30c86eb239a68d18c8f1",
+      "size_bytes": 16351
+    },
+    {
+      "relative_path": "unisim/revision_r1/physmap6_experiment.py",
+      "sha256": "f30f6efe1eb40db63f5a3d23f122850c4cadf6c7488d669632b4d50b03451614",
+      "size_bytes": 74989
+    },
+    {
+      "relative_path": "unisim/revision_r1/physmap6_fig5_prespecified.py",
+      "sha256": "24b036ebcdd03ee0d29356210f1c54a6271ff01df85eca63cb162eb10dbddc19",
+      "size_bytes": 58415
+    },
+    {
+      "relative_path": "unisim/revision_r1/physmap6_pipeline.py",
+      "sha256": "8a58967ed9931d0fe23bddfb7bf97a8e9e1528dac19d3233a611bf4f02fa874e",
+      "size_bytes": 17776
+    },
+    {
+      "relative_path": "unisim/revision_r1/physmap6_reporting.py",
+      "sha256": "bb679ec3cdf19ff669c784cb2418907fb335f4803a238959115c6e05ff8de9ee",
+      "size_bytes": 89774
+    },
+    {
+      "relative_path": "unisim/revision_r1/r1c3_weight_convergence.py",
+      "sha256": "0337096f64a42aa670e377a777d5c0275dc3676571b7995334b52ebe6cf96595",
+      "size_bytes": 76726
+    },
+    {
+      "relative_path": "unisim/revision_r1/validity_mask_control.py",
+      "sha256": "a2218be677d28f87704f362a7062e5254188b77db2360952a03f904c45f18ded",
+      "size_bytes": 63204
+    },
+    {
+      "relative_path": "unisim/sim_forward.py",
+      "sha256": "94214db61742c559394de354af2c15e3326b151ac165278dd82e88e6d13913c1",
+      "size_bytes": 31967
+    },
+    {
+      "relative_path": "unisim/sim_forward_2d.py",
+      "sha256": "21079c09f012c21a08c32e3b6dacd62f58bf0f062b1335ddb864d544fc694582",
+      "size_bytes": 21452
+    },
+    {
+      "relative_path": "unisim/utils.py",
+      "sha256": "16b6a2a7cd32b6ee5855b5898ad1f2a11451f0206d67405955bff88e1d18a1c2",
+      "size_bytes": 3231
+    }
+  ],
+  "manifest_policy": "The three self-referential manifest files are excluded from their own payload list; they are included in the ZIP.",
+  "payload_file_count": 129,
+  "payload_total_bytes": 42382205,
+  "schema_version": 1,
+  "top_level_directory": "APD-SIM"
+}

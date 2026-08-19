@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-08-19T02:18:46.6064319Z",
+  "configuration_identity": {
+    "configs_checked": 3,
+    "manifest_hashes_checked_per_config": 4,
+    "status": "PASS"
+  },
+  "dependency_installation_count": 0,
+  "full_gpu_inference_count": 0,
+  "gates": {
+    "clean_working_directory_import": "PASS",
+    "compileall": "PASS",
+    "json_parse": "PASS",
+    "no_file_above_100_mib": "PASS",
+    "public_path_private_ip_scan": "PASS",
+    "readme_file_references": "PASS",
+    "reproduction_missing_asset_fail_closed": {
+      "exit_code": 2,
+      "status": "BLOCKED"
+    }
+  },
+  "pytest": [
+    {
+      "scope": "tests/public plus protocol runtime, BioSR loader, and official metrics",
+      "passed": 43,
+      "failed": 0
+    },
+    {
+      "scope": "formal 2-D core, checkpoint contract, and validity-mask control",
+      "passed": 43,
+      "failed": 0
+    }
+  ],
+  "python": "3.11.0",
+  "schema_version": 1,
+  "status": "PUBLIC_RELEASE_TESTS_PASS",
+  "training_execution_count": 0,
+  "unique_tests_passed": 86
+}

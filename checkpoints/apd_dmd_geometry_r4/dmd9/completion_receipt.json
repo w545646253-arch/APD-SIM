@@ -1,0 +1,11 @@
+{
+  "load_and_finite_check": "PASS",
+  "repair_type": "inference_only",
+  "schema_version": 1,
+  "scientific_weights_changed": false,
+  "sealed_test_access_count": 0,
+  "selected_checkpoint_sha256": "62831cc9798c9d005fdbf56b343928cc592646b6e70a16f58399b6da0d01b63e",
+  "source_generation": "apd_dmd_geometry_r2/dmd9",
+  "status": "DMD9_REPAIR_NO_RETRAIN_READY",
+  "training_executed": false
+}

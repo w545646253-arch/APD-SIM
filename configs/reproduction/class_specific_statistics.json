@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    {
+      "path": "reproduction_outputs/matched_baselines/per_fov_metrics.csv",
+      "required": true,
+      "role": "authoritative matched per-FOV metrics"
+    }
+  ],
+  "parameters": {
+    "ddof": 1
+  },
+  "schema_version": 1,
+  "task": "class_specific_statistics",
+  "test_set_tuning": false
+}

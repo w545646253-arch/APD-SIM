@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+outputs/
+reproduction_outputs/
+reproduction_receipts/
+data/BioSR_GT/*
+data/sealed_test_gt/*
+data/reproduction/*
+checkpoints/**/*.pt
+checkpoints/**/*.pth
+checkpoints/**/*.ckpt
+!data/**/README.md
+!checkpoints/README.md

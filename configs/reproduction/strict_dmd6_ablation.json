@@ -1,0 +1,30 @@
+{
+  "inputs": [
+    {
+      "path": "checkpoints/apd_dmd_geometry_r2/dmd6/best.pt",
+      "required": true,
+      "role": "DMD6 checkpoint",
+      "sha256": "10fb16662a8b71b877f2cab81bdc151dcded92f6efd1c4b006306b901a8adff7",
+      "size_bytes": 227193757
+    },
+    {
+      "path": "data/reproduction/dmd6/test30_dmd6_manifest.tsv",
+      "required": true,
+      "role": "sealed DMD6 bundle manifest",
+      "sha256": "91a7a8d4f7c264d0909bace489823e31fe5f09148a0632d476b4141abb17a526"
+    },
+    {
+      "path": "data/reproduction/dmd6/PHYSMAP6_PATCH_MANIFEST.csv",
+      "required": true,
+      "role": "robustness manifest",
+      "sha256": "4ac05467274e3f6076c86a3b5a54f1c0ab5aece1c7412332521adabefaf793e4"
+    }
+  ],
+  "parameters": {
+    "bootstrap_resamples": 10000,
+    "preflight_only": false
+  },
+  "schema_version": 1,
+  "task": "strict_dmd6_ablation",
+  "test_set_tuning": false
+}

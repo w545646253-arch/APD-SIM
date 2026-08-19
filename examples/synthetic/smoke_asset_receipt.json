@@ -1,0 +1,10 @@
+{
+  "array_sha256": "09a0d86158c0ca6eabe0a0a7c90f6ed95b61ff04d38a5ba36f676fe2d1ed20bc",
+  "dtype": "float32",
+  "generator": "generate_smoke_asset.py",
+  "restricted_data": false,
+  "shape": [
+    64,
+    64
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "path": "checkpoints/apd_dmd_geometry_r2/dmd6/best.pt",
+      "required": true,
+      "role": "DMD6 checkpoint",
+      "sha256": "10fb16662a8b71b877f2cab81bdc151dcded92f6efd1c4b006306b901a8adff7",
+      "size_bytes": 227193757
+    },
+    {
+      "path": "data/reproduction/dmd6/test30_dmd6_manifest.tsv",
+      "required": true,
+      "role": "sealed DMD6 bundle manifest",
+      "sha256": "91a7a8d4f7c264d0909bace489823e31fe5f09148a0632d476b4141abb17a526"
+    },
+    {
+      "path": "reproduction_outputs/matched_baselines/per_fov_metrics.csv",
+      "required": true,
+      "role": "principal matched metrics"
+    }
+  ],
+  "parameters": {
+    "bootstrap_resamples": 10000,
+    "preflight_only": false
+  },
+  "schema_version": 1,
+  "task": "seed_sensitivity",
+  "test_set_tuning": false
+}

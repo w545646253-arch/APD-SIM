@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "path": "checkpoints/apd_dmd_geometry_r2/dmd3_restart_simple_r1/best.pt",
+      "required": true,
+      "role": "DMD3 checkpoint",
+      "sha256": "c749e25f625c88dc5f1fbb84ebb1854f760cad21f087c58ed4bf7e734e3919b5",
+      "size_bytes": 227194333
+    },
+    {
+      "path": "checkpoints/apd_dmd_geometry_r2/dmd6/best.pt",
+      "required": true,
+      "role": "DMD6 checkpoint",
+      "sha256": "10fb16662a8b71b877f2cab81bdc151dcded92f6efd1c4b006306b901a8adff7",
+      "size_bytes": 227193757
+    },
+    {
+      "path": "checkpoints/apd_dmd_geometry_r4/dmd9/best.pt",
+      "required": true,
+      "role": "DMD9 checkpoint",
+      "sha256": "62831cc9798c9d005fdbf56b343928cc592646b6e70a16f58399b6da0d01b63e",
+      "size_bytes": 227193885
+    },
+    {
+      "path": "data/reproduction/frame_budget/test30",
+      "required": true,
+      "role": "sealed 30-FOV bundle"
+    }
+  ],
+  "parameters": {
+    "bootstrap_resamples": 10000,
+    "preflight_only": false
+  },
+  "schema_version": 1,
+  "task": "frame_budget",
+  "test_set_tuning": false
+}

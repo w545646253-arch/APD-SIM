@@ -1,0 +1,367 @@
+{
+  "excluded_categories": [
+    "third-party source",
+    "data and raw bundles",
+    "checkpoints and duplicate checkpoints",
+    "generated outputs/figures/tables",
+    "audit/archive/legacy/failed runs",
+    "caches/compiled objects",
+    "manuscript private paths"
+  ],
+  "known_blockers": [
+    "first-party licence approval pending",
+    "DMD-3F historical DMD-9F initializer identity unavailable"
+  ],
+  "original_repository_git_commit": null,
+  "protocol_identities": {
+    "DMD_3F_1O3P": {
+      "file": "dmd_3f_1o3p.json",
+      "original_file_sha256": "f155a32317de8c703008738226e2f682b03f86bfc2ec2a476c031b9a94e23152",
+      "public_file_sha256": "706f3927c0e390ca00c8c5b8ae6eb55e28e7751c49a823a587e33ca68d8ba1ce",
+      "sanitized_recomputed_hash": "341502315d9c95b281da4a4b7c0482406fc16b4e1c2474a79900904fac8d1a9a",
+      "scientific_protocol_hash": "e1e70fcfab3b97359fb0b9a44dfcace166922eaf8585927de5b9c9091fdc79e9"
+    },
+    "DMD_6F_2O3P": {
+      "file": "dmd_6f_2o3p.json",
+      "original_file_sha256": "dfb992d38a8c3b029d8e1d1d1b7223fc79118ec2d8d314d1e3d5c1d0211fb0d6",
+      "public_file_sha256": "89288c611d5bb60991f1104b6cb218e396a2e78704d78cd258ea1b607b9bb2f5",
+      "sanitized_recomputed_hash": "cc38314a94879f6fd38065c3a5d09ee38a159315d6fd5d652f8a9e9a30bf31b5",
+      "scientific_protocol_hash": "580e8ac305e665a7bbe127f1b89c61c0d571c949880673d168d21a04f31d3e83"
+    },
+    "DMD_9F_3O3P": {
+      "file": "dmd_9f_3o3p.json",
+      "original_file_sha256": "78eac83edb660508a62195f9ecbc011bcbd2e15296440e00acc56c3b8b66df1e",
+      "public_file_sha256": "dd63f749a76ee4a9c772ed66efb457f8ea56f00c4a053ed2fa705a7e5aa4e7c3",
+      "sanitized_recomputed_hash": "d268306b1b3d55adf8716ca3bc5e4efc366ddb3cf53a210e24cf4a7a6e75a9b4",
+      "scientific_protocol_hash": "449670667c6ecb043fc55a303872a9e47cddeceb9ef97204b087ca3d45b095e3"
+    }
+  },
+  "schema_version": 1,
+  "selected_source_count": 64,
+  "selected_sources": [
+    {
+      "public_path": "scripts/evaluate/R1C1_run_validity_mask_control.py",
+      "source": "R1C1_run_validity_mask_control.py",
+      "source_sha256": "4dd48e28cb3a95eaf0f13b2cfe4f5ee60cd77ba28cc41fd8af471b4c86b1ea9a"
+    },
+    {
+      "public_path": "scripts/evaluate/R1C2_run_frame_budget_30fov.py",
+      "source": "R1C2_run_frame_budget_30fov.py",
+      "source_sha256": "136e347721eacb6f8916b9f4d7abf875390a85d732a79bf1c77da17e966d4136"
+    },
+    {
+      "public_path": "scripts/evaluate/R1C3_run_physmap6_strict.py",
+      "source": "R1C3_run_physmap6_strict.py",
+      "source_sha256": "50fd2658120191a74332a5bf3b69862e5103536077ce879b13945b0b221b3e02"
+    },
+    {
+      "public_path": "scripts/evaluate/evaluate_apd369_protocols_final.py",
+      "source": "evaluate_apd369_protocols_final.py",
+      "source_sha256": "e217f7b54e01acb346e4b66cc313391f194f643cf2ec101aa0a4edaefe05361c"
+    },
+    {
+      "public_path": "scripts/evaluate/evaluate_apd369_repair_r4.py",
+      "source": "evaluate_apd369_repair_r4.py",
+      "source_sha256": "ec20c47b2a5728b91368ac1b89466887c61655a45ae891ab54f0d6b9b67689fb"
+    },
+    {
+      "public_path": "scripts/infer/generate_apd369_from_gt.py",
+      "source": "generate_apd369_from_gt.py",
+      "source_sha256": "975e300489e9a7045d1c72c1c1881ea9302c3cb78661eb8d24900932e8e10257"
+    },
+    {
+      "public_path": "scripts/infer/run_single_gt_apd369_frc_spectra.py",
+      "source": "run_single_gt_apd369_frc_spectra.py",
+      "source_sha256": "5102e15142458d4c4acf573e844a8e593ea930b8199268dab848540b8f2b72c1"
+    },
+    {
+      "public_path": "tests/upstream/test_apd369_final_reevaluation.py",
+      "source": "tests/test_apd369_final_reevaluation.py",
+      "source_sha256": "3589dc762f2dd79a190fac5be5dcc09bdd1c9aec8e5eab29972a53dd1813d61d"
+    },
+    {
+      "public_path": "tests/upstream/test_apd369_single_gt_repaired.py",
+      "source": "tests/test_apd369_single_gt_repaired.py",
+      "source_sha256": "542d99ebc0cc3c881c9fd62c520a30b8a89a2e35055e6897061a141e105074e2"
+    },
+    {
+      "public_path": "tests/upstream/test_apd_dmd_checkpoint_contract.py",
+      "source": "tests/test_apd_dmd_checkpoint_contract.py",
+      "source_sha256": "63dd7f8cc8a2a6a5b0953fda796c856f87236b22e2159a6761c2c756a974ac04"
+    },
+    {
+      "public_path": "tests/upstream/test_apd_dmd_formal_gate.py",
+      "source": "tests/test_apd_dmd_formal_gate.py",
+      "source_sha256": "4feb2a0ca4f235911840fb149ba6d82db416343f3bb36cb31062920dc0e62beb"
+    },
+    {
+      "public_path": "tests/upstream/test_apd_dmd_protocol_runtime.py",
+      "source": "tests/test_apd_dmd_protocol_runtime.py",
+      "source_sha256": "20b98e5e6767cc5214cb16926ae7e43b745b596649584bc27062ddc348435135"
+    },
+    {
+      "public_path": "tests/upstream/test_biosr_dataset.py",
+      "source": "tests/test_biosr_dataset.py",
+      "source_sha256": "f5cbf812b58e3a0dfcd3ffda1e780e90d663a01df9ae92c6f3ece59be2fd9383"
+    },
+    {
+      "public_path": "tests/upstream/test_dataset_fig5_audit_identity.py",
+      "source": "tests/test_dataset_fig5_audit_identity.py",
+      "source_sha256": "fb263228fc1f23392fdb439b062c08bba80d597d6954c510e7beba1a2ad20dcd"
+    },
+    {
+      "public_path": "tests/upstream/test_dmd9_repair_r4_contract.py",
+      "source": "tests/test_dmd9_repair_r4_contract.py",
+      "source_sha256": "68eb39192861bc2375b87284f25b65e0a410217a9df33650e06a88293045dda2"
+    },
+    {
+      "public_path": "tests/upstream/test_dmd_protocol_registry.py",
+      "source": "tests/test_dmd_protocol_registry.py",
+      "source_sha256": "417cd3faa988e025097ee96a5c57a4715827386b000ee30fdb74be7464cbabd9"
+    },
+    {
+      "public_path": "tests/upstream/test_formal_2d_core.py",
+      "source": "tests/test_formal_2d_core.py",
+      "source_sha256": "a1d211c80867af54140fd81803ccdabc6c64aa87717a5aa2d4aac2b33e7145cf"
+    },
+    {
+      "public_path": "tests/upstream/test_official_r2_adapters.py",
+      "source": "tests/test_official_r2_adapters.py",
+      "source_sha256": "7bbd6988934989b5130125c7ea6e93d4894cea9fd563c32aa89a60c9c0609af0"
+    },
+    {
+      "public_path": "tests/upstream/test_official_r2_common_metrics.py",
+      "source": "tests/test_official_r2_common_metrics.py",
+      "source_sha256": "e84de2151be5b0f6bb8f61ec3f081b318f3578df486f49864f5fb3862594ab37"
+    },
+    {
+      "public_path": "tests/upstream/test_r1c1_validity_mask_control.py",
+      "source": "tests/test_r1c1_validity_mask_control.py",
+      "source_sha256": "fd36c233245b66b201f3e4e2f1abb4fd517a957be955c02962ee0a3ef293ee25"
+    },
+    {
+      "public_path": "tests/upstream/test_r1c2_frame_budget_30fov.py",
+      "source": "tests/test_r1c2_frame_budget_30fov.py",
+      "source_sha256": "2ba2c7763ffdc47d4e38420c53bdf2304330094ae57ec30829d088ee013eeecf"
+    },
+    {
+      "public_path": "tests/upstream/test_r1c3_physmap6_strict.py",
+      "source": "tests/test_r1c3_physmap6_strict.py",
+      "source_sha256": "2f68ba1e0ee66c821786d7c238d3ec7aced21ff9c8f5ef38d4b7cd0e5f4c6b1e"
+    },
+    {
+      "public_path": "tests/upstream/test_r1c3_weight_convergence.py",
+      "source": "tests/test_r1c3_weight_convergence.py",
+      "source_sha256": "e2f03d8133e271aad93a340ee3e4fcd6f1a0013c4e2aa378829deb6b7846059d"
+    },
+    {
+      "public_path": "tests/upstream/test_revision_dmd6_package.py",
+      "source": "tests/test_revision_dmd6_package.py",
+      "source_sha256": "54abd3ecbf501485559921e3dad231e4e6261c55af7ea00642a2eb162ac6230e"
+    },
+    {
+      "public_path": "tools/apd369_final_contract.py",
+      "source": "tools/apd369_final_contract.py",
+      "source_sha256": "f61807c41cf7315ab37883fb602e4484da4ca56567f3361b1b700e9e9a740774"
+    },
+    {
+      "public_path": "tools/dmd6_test_contract.py",
+      "source": "tools/dmd6_test_contract.py",
+      "source_sha256": "20a537b3ff811eb30aaede822e4ebe84696215010953f8a1653aed444a9467e6"
+    },
+    {
+      "public_path": "tools/evaluate_apd6_on_official_r2.py",
+      "source": "tools/evaluate_apd6_on_official_r2.py",
+      "source_sha256": "2ebd1dd5c462015285688b686ff005b3a1e3ceb37e41f2ef7872c37e08d26b82"
+    },
+    {
+      "public_path": "tools/finalize_revision_experiments.py",
+      "source": "tools/finalize_revision_experiments.py",
+      "source_sha256": "57e00898542439df8802a7a4b17f9399d46748e69aeb7f95bd67520e800d875f"
+    },
+    {
+      "public_path": "tools/official_baselines_dmd6_r2.py",
+      "source": "tools/official_baselines_dmd6_r2.py",
+      "source_sha256": "3b815dae2df069f58528a360e283db41aede785baa6a8a5f17b792fb75a41e83"
+    },
+    {
+      "public_path": "tools/official_r2_adapters.py",
+      "source": "tools/official_r2_adapters.py",
+      "source_sha256": "6a42ee68f9607e21cb7d9a697876b0538cf40dccb9c95608a70639b25b870850"
+    },
+    {
+      "public_path": "tools/official_r2_common_metrics.py",
+      "source": "tools/official_r2_common_metrics.py",
+      "source_sha256": "9efd7efcc6ecf126816887a710478f592ecc3b29562003a2ea452e1b93deec9a"
+    },
+    {
+      "public_path": "tools/revision_dmd6_common.py",
+      "source": "tools/revision_dmd6_common.py",
+      "source_sha256": "453a7a1775cf37bb270a7332e00f2cea9c825274d056b0da072556ee4524a069"
+    },
+    {
+      "public_path": "tools/run_revision_frame_budget.py",
+      "source": "tools/run_revision_frame_budget.py",
+      "source_sha256": "14604dbcf5af01b3f2f1d4b6ad40472945c8e30271a38fc97aa00b0f9927efa5"
+    },
+    {
+      "public_path": "tools/run_revision_matched_dmd6.py",
+      "source": "tools/run_revision_matched_dmd6.py",
+      "source_sha256": "79f8798308ef430cf2aa8807bf69c46e76e2cb90919b41f988dfadb31ad2d16f"
+    },
+    {
+      "public_path": "tools/run_revision_seed_sensitivity.py",
+      "source": "tools/run_revision_seed_sensitivity.py",
+      "source_sha256": "2dcb7e2ea4200247af1b31cdb3ea8a5d68d8d829209a925a2d8c1ffa0591839d"
+    },
+    {
+      "public_path": "tools/validate_revision_dmd6_package.py",
+      "source": "tools/validate_revision_dmd6_package.py",
+      "source_sha256": "f201beaca5f1a0fea617838e07940b28796db410771967d1fd8730a0398bca20"
+    },
+    {
+      "public_path": "scripts/train/train3.py",
+      "source": "train3.py",
+      "source_sha256": "bb3e6559dd2b5ed09afbcd89cddf23c0779ebaacce3f9bd6e4cf1fa289b480c0"
+    },
+    {
+      "public_path": "scripts/train/train6.py",
+      "source": "train6.py",
+      "source_sha256": "a485fb50bb37009b129ef0c88039ab487108eb15788f78c4a0e2b0ebdec8f04d"
+    },
+    {
+      "public_path": "scripts/train/train9.py",
+      "source": "train9.py",
+      "source_sha256": "8a4e9ee77dd00c81a41cfe18f53a5bad4898b3dbb2d49383b06ea558029d9a3b"
+    },
+    {
+      "public_path": "unisim/__init__.py",
+      "source": "unisim/__init__.py",
+      "source_sha256": "c1e48f4c85d13af42e316b2aca981875a31754ac43d4f7f68250e2efdc38fe24"
+    },
+    {
+      "public_path": "unisim/apd369_single_gt_repaired.py",
+      "source": "unisim/apd369_single_gt_repaired.py",
+      "source_sha256": "c821d7bf04f707e292b72f16944f6cc1276c606dca8014eb34400e360212af28"
+    },
+    {
+      "public_path": "unisim/checkpoint_contract.py",
+      "source": "unisim/checkpoint_contract.py",
+      "source_sha256": "da555ee740e165fc04c8a2938c0eb5ef8409b58921084ccca0e0eb540d741527"
+    },
+    {
+      "public_path": "unisim/datasets.py",
+      "source": "unisim/datasets.py",
+      "source_sha256": "56e41ac498cb4cec02d87986b3a134868a4905c786a0042b7eb01ce2c457c351"
+    },
+    {
+      "public_path": "unisim/diffusion.py",
+      "source": "unisim/diffusion.py",
+      "source_sha256": "621e3a64f0b81cc3cac881f2cb2ca21de4244f1211b4b497a6a602d6f5c24615"
+    },
+    {
+      "public_path": "unisim/formal_training_2d.py",
+      "source": "unisim/formal_training_2d.py",
+      "source_sha256": "ee3a3fb06824f2616e5cb5e7a690cabcd9f87a208fe04fcfce63b6aed5716f26"
+    },
+    {
+      "public_path": "unisim/formal_training_gate.py",
+      "source": "unisim/formal_training_gate.py",
+      "source_sha256": "c7fb7bab0c80349fb3a34397a049f4bbb3f4e9981a3c9dafcaee5066414e8ce4"
+    },
+    {
+      "public_path": "unisim/model2d.py",
+      "source": "unisim/model2d.py",
+      "source_sha256": "b2a2d96297542e33d40c477feedb98be759e7cb9a2220288181710e359c3acf4"
+    },
+    {
+      "public_path": "unisim/models.py",
+      "source": "unisim/models.py",
+      "source_sha256": "de4844b6fa6f6bcd9cb390ff7e9fe20bc69ed87fac39859d50bc1dd8bc2abec9"
+    },
+    {
+      "public_path": "unisim/protocol_runtime.py",
+      "source": "unisim/protocol_runtime.py",
+      "source_sha256": "bc28868baf391ad53491ef7e50d0f07f2f64ac9572b23c6a2b475a6bbc0d123a"
+    },
+    {
+      "public_path": "unisim/protocols.py",
+      "source": "unisim/protocols.py",
+      "source_sha256": "a74a0278c952d4d36a60e56392880780742d00f429e3bacee859f19e49d1a01a"
+    },
+    {
+      "public_path": "unisim/recon.py",
+      "source": "unisim/recon.py",
+      "source_sha256": "9c1052a46a339e385a3d6dfb87349e9276485907caa8459bdeb9eaa16bc8e8e7"
+    },
+    {
+      "public_path": "unisim/revision_r1/__init__.py",
+      "source": "unisim/revision_r1/__init__.py",
+      "source_sha256": "15bac46d7c8f94ceb3d38372e93910b0c4114bf5babcebb5141eb56a2af80c47"
+    },
+    {
+      "public_path": "unisim/revision_r1/dataset_fig5_audit_identity.py",
+      "source": "unisim/revision_r1/dataset_fig5_audit_identity.py",
+      "source_sha256": "2015b15fce109f76229e794f4fc28f3489cc4e78c71c3288d17e02c890125648"
+    },
+    {
+      "public_path": "unisim/revision_r1/frame_budget_r1c2.py",
+      "source": "unisim/revision_r1/frame_budget_r1c2.py",
+      "source_sha256": "fadcc7fa5c7cacfd3ae817231eab17ad4e6fc13069d754f78481db9ef4f0157a"
+    },
+    {
+      "public_path": "unisim/revision_r1/physmap6_core.py",
+      "source": "unisim/revision_r1/physmap6_core.py",
+      "source_sha256": "e4d60b5937680a22367d2fc6a4add0ce95835658ad5e30c86eb239a68d18c8f1"
+    },
+    {
+      "public_path": "unisim/revision_r1/physmap6_experiment.py",
+      "source": "unisim/revision_r1/physmap6_experiment.py",
+      "source_sha256": "85eac16aafdd9093a31a381a150f2e13e922b3e7d6f842202a6985c16500cfad"
+    },
+    {
+      "public_path": "unisim/revision_r1/physmap6_fig5_prespecified.py",
+      "source": "unisim/revision_r1/physmap6_fig5_prespecified.py",
+      "source_sha256": "f59fa4eccdf788e5145b67b4abcbbc069ec2edaeac23676ae5b7fcfd3859d062"
+    },
+    {
+      "public_path": "unisim/revision_r1/physmap6_pipeline.py",
+      "source": "unisim/revision_r1/physmap6_pipeline.py",
+      "source_sha256": "8a58967ed9931d0fe23bddfb7bf97a8e9e1528dac19d3233a611bf4f02fa874e"
+    },
+    {
+      "public_path": "unisim/revision_r1/physmap6_reporting.py",
+      "source": "unisim/revision_r1/physmap6_reporting.py",
+      "source_sha256": "bb679ec3cdf19ff669c784cb2418907fb335f4803a238959115c6e05ff8de9ee"
+    },
+    {
+      "public_path": "unisim/revision_r1/r1c3_weight_convergence.py",
+      "source": "unisim/revision_r1/r1c3_weight_convergence.py",
+      "source_sha256": "0337096f64a42aa670e377a777d5c0275dc3676571b7995334b52ebe6cf96595"
+    },
+    {
+      "public_path": "unisim/revision_r1/validity_mask_control.py",
+      "source": "unisim/revision_r1/validity_mask_control.py",
+      "source_sha256": "a2218be677d28f87704f362a7062e5254188b77db2360952a03f904c45f18ded"
+    },
+    {
+      "public_path": "unisim/sim_forward.py",
+      "source": "unisim/sim_forward.py",
+      "source_sha256": "94214db61742c559394de354af2c15e3326b151ac165278dd82e88e6d13913c1"
+    },
+    {
+      "public_path": "unisim/sim_forward_2d.py",
+      "source": "unisim/sim_forward_2d.py",
+      "source_sha256": "21079c09f012c21a08c32e3b6dacd62f58bf0f062b1335ddb864d544fc694582"
+    },
+    {
+      "public_path": "unisim/utils.py",
+      "source": "unisim/utils.py",
+      "source_sha256": "16b6a2a7cd32b6ee5855b5898ad1f2a11451f0206d67405955bff88e1d18a1c2"
+    }
+  ],
+  "selection_policy": "post-R4 authoritative first-party execution closure",
+  "status": "SOURCE_SELECTION_COMPLETE",
+  "workspace_file_count": 69799,
+  "workspace_total_bytes": 97598796728
+}

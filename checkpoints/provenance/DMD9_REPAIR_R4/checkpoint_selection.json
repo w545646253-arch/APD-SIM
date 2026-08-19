@@ -1,0 +1,49 @@
+{
+  "active_checkpoint_files": [
+    {
+      "active_path": "data/external_input",
+      "global_step": 88000,
+      "load_and_finite_check": "PASS",
+      "name": "best.pt",
+      "sha256": "62831cc9798c9d005fdbf56b343928cc592646b6e70a16f58399b6da0d01b63e",
+      "source_path": "data/external_input"
+    },
+    {
+      "active_path": "data/external_input",
+      "global_step": 100000,
+      "load_and_finite_check": "PASS",
+      "name": "latest.pt",
+      "sha256": "2890141986fcc6b18eb27043c63dc6af042bc14e1d5a90ef32502ae18c9b8d62",
+      "source_path": "data/external_input"
+    },
+    {
+      "active_path": "data/external_input",
+      "global_step": 100000,
+      "load_and_finite_check": "PASS",
+      "name": "final.pt",
+      "sha256": "a1ef9ae4eac1a42761ec48601bceafb8252927cd01138875269548308da0b330",
+      "source_path": "data/external_input"
+    }
+  ],
+  "inference_mode": "tiled_320_core_160_single_spatial_noise_field",
+  "inference_weight_branch": "ema",
+  "logical_sweep_rows": 90,
+  "protocol_hash": "449670667c6ecb043fc55a303872a9e47cddeceb9ef97204b087ca3d45b095e3",
+  "protocol_id": "DMD_9F_3O3P",
+  "schema_version": 1,
+  "sealed_test_access_count": 0,
+  "selected_checkpoint_path": "data/external_input",
+  "selected_checkpoint_sha256": "62831cc9798c9d005fdbf56b343928cc592646b6e70a16f58399b6da0d01b63e",
+  "selected_iteration": 88000,
+  "selection_rule": "R2_MIN_TOTAL_THEN_PSNR_SSIM_EARLIEST_V1",
+  "selection_was_validation_only": true,
+  "status": "DMD9_EXISTING_CHECKPOINT_FROZEN",
+  "unique_state_evaluations": 4,
+  "validation_summary": {
+    "mean_full_pipeline_psnr": 43.11483458138805,
+    "mean_full_pipeline_ssim": 0.988269193457551,
+    "mean_stage1_psnr": 31.14051012958956,
+    "mean_stage1_ssim": 0.6645780703873093,
+    "n": 15
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "amp_overflow_skip_fraction": 0.00038,
+  "amp_overflow_skips": 38,
+  "architecture_contract": "APD_DMD_R2_STRICT_2D_CONV_V1",
+  "architecture_hash": "641fda06847246cd7023db86ff37889e85f913700abd185cefbeac81ccf13909",
+  "checkpoint_path": "data/external_input",
+  "checkpoint_sha256": "c749e25f625c88dc5f1fbb84ebb1854f760cad21f087c58ed4bf7e734e3919b5",
+  "committed_optimizer_updates": 99962,
+  "completion_status": "FORMAL_TRAINING_COMPLETE",
+  "consecutive_amp_overflow_skips_at_completion": 0,
+  "formal_final_checkpoint_sha256": "c9c565a3cf55077db710e19a7173bae70e31daab513051de8a78c0d812a65f25",
+  "formal_final_validation_metric": {
+    "global_step": 100000.0,
+    "mean_val_diff_loss": 0.0027871872474982714,
+    "mean_val_phys_loss": -1.5251285183429717,
+    "mean_val_total_loss": -0.07346924041708311,
+    "mean_val_x0_psnr": 37.68413177808126,
+    "mean_val_x0_ssim": 0.7936587532858054,
+    "validation_entry_count": 150.0
+  },
+  "input_tensor_dimensionality": "4D_BCHW",
+  "metrics": {
+    "global_step": 96000.0,
+    "mean_val_diff_loss": 0.002660729225317482,
+    "mean_val_phys_loss": -1.8427759423851966,
+    "mean_val_total_loss": -0.08947806923960645,
+    "mean_val_x0_psnr": 38.27203010559082,
+    "mean_val_x0_ssim": 0.8079425723602375,
+    "validation_entry_count": 150.0
+  },
+  "normalization_contract": {
+    "clip": [
+      0.0,
+      1.0
+    ],
+    "lower_percentile": 0.5,
+    "method": "per_image_percentile_clip",
+    "output_dtype": "float32",
+    "upper_percentile": 99.5
+  },
+  "normalization_contract_hash": "a148bcb41ab149285435bc0e0bd57526c6346fd905a6abece6721f204e1cd2d3",
+  "protocol_hash": "e1e70fcfab3b97359fb0b9a44dfcace166922eaf8585927de5b9c9091fdc79e9",
+  "protocol_id": "DMD_3F_1O3P",
+  "scheduled_iterations": 100000,
+  "schema_version": 1,
+  "selection_rule": "R2_MIN_TOTAL_THEN_PSNR_SSIM_EARLIEST_V1",
+  "test_data_used_for_selection": false
+}
